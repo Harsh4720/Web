@@ -1,0 +1,95 @@
+header {
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  background-color: cyan;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}
+
+.d-flex {
+  align-items: flex-end;
+  align-self: center;
+}
+
+.form-control {
+  padding: 5px;
+}
+
+.c1 {
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+  padding: 20px;  
+}
+
+nav li :hover {
+  padding: 2px 5px;
+  background-color: red;
+  color: white
+}
+
+nav li :active {
+  opacity: 0.6;
+}
+
+.search-btn{
+  padding: 5px 7px;
+  background-color: none;
+  background-color: rgb(255, 210, 210);
+  margin-right: 10px; 
+ }
+
+ .btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+ }
+
+ .btn:active {
+  opacity: 0.7;
+ }
+
+ @media (max-width: 676px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .c1{
+    display: inline-block;
+  }
+
+
+  nav li {
+    padding: 0;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-control {
+    margin: 10px 0;
+  }
+}
